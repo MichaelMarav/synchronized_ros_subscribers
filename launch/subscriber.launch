@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
-  <node pkg="synchronized_subscribers" type="subscriber" name="subscriber" output="screen">
-    <rosparam file="$(find synchronized_subscribers)/config/config.yaml" command="load"/>
+  <node pkg="synchronized_ros_subscribers" type="subscriber" name="subscriber" output="screen">
+    <rosparam file="$(find synchronized_ros_subscribers)/config/config.yaml" command="load"/>
   </node>
 </launch>
