@@ -1,6 +1,6 @@
-topic_1: "/atlas_raisim_ros/LLeg/force_torque_states"
-topic_2: "/atlas_raisim_ros/imu"
-topic_3: "/atlas_raisim_ros/odom"
+topic_1: "/<example_topic_1>/force_torque_states"
+topic_2: "/<example_topic_2>/imu"
+topic_3: "/<example_topic_3>/odom"
 subscribe_rate_hz: 100
 write_data: true
 path_to_write: "<path>/data.csv"
