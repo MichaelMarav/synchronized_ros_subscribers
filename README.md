@@ -1,2 +1,9 @@
-# Synchronized_ros_subscribers
-Synchonized subscription to multiple ros-topics
+# Synchronized ros-topic subscribers
+
+This package usage is to subscribe to various ROS topics and store data simultaneously.
+
+## Installation
+
+```
+$  git clone
+```
